@@ -3,57 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Template</title>
-    <!-- <style>
-        a {
-            background-color: rgb(84, 125, 247);
-        }
-    </style> -->
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Educational Template</title>
 
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <header>
-        <div class="head">
-            <div>
+        <section class="head">
+            <div class="logo">
                 <img src="/assets/images/logo.png" alt="logo">
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li class="main-menu"><a href="/">Home</a></li>
+                    <li class="main-menu"><a href="#">About Us</a></li>
+                    <li class="main-menu"><a href="#">Courses</a></li>
+                    <li class="main-menu"><a href="#">Blog</a></li>
                 </ul>
             </nav>
             <div class="login">
-                <a href="#" class="btn">Login</a>
-                <a id="register" class="btn btn-primary" href="#">Register</a>
+                <a href="#" class="btn btn-secondary">Login</a>
+                <a href="#" class="btn btn-primary">Register</a>
+
             </div>
-        </div>
+        </section>
     </header>
     <main>
-        <section>
-            <div>
-                <div class="intro-text">
-                    <h1>Education Template</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ullam.</p>
+        <section id="intro">
+            <div class="row">
+                <div class="span6">
+                    <div class="intro_text">
+                        <h1>Education Template</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, esse?</p>
+                    </div>
+                    <div class="intro_sub">
+                        <form action="" class="search_form">
+                            <input type="text" name="search" id="search" class="form-control search_input" placeholder="Search your course">
+                            <button type="submit" class="btn btn-primary" >Search</button>
+                        </form>
+                    </div>
                 </div>
-                <form action="">
-                    <input type="text"
-                     name="searchTerm" 
-                     id="searchTerm"
-                     placeholder="Search your course"
-                     >
-                    <!-- <input type="submit" value="Search in the Site"> -->
-                    <button type="submit">Search</button>
-                </form>
-            </div>
-            
-            <div class="intro-image">
-                <img src="/assets/images/foto.png" alt="intro image">
+                    
+                <div class="span6">
+                    <div class="intro_image">
+                        <img src="/assets/images/foto.png" alt="intro">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    <footer></footer>
 </body>
 </html>
